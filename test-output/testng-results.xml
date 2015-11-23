@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22324" started-at="2015-11-24T00:13:59Z" finished-at="2015-11-24T00:14:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22324" started-at="2015-11-24T00:13:59Z" finished-at="2015-11-24T00:14:21Z">
+      <class name="com.practice.della.Test">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.practice.della.Test@790da477]" name="test1" duration-ms="14010" started-at="2015-11-23T18:13:59Z" finished-at="2015-11-23T18:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.practice.della.Test@790da477]" name="test2" duration-ms="8295" started-at="2015-11-23T18:14:13Z" finished-at="2015-11-23T18:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.practice.della.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
