@@ -17,10 +17,10 @@ public class SearchWhichWayToSelect {
 	@FindBy(css = ".ui3-city-change-inner.ui3-control-shadow")
 	private WebElement city;
 	
-	@FindBy(css = "a[name='�Ϻ�']")
+	@FindBy(css = "a[name='上海']")
 	private WebElement shangHaiCityItem;
 	
-	@FindBy(css = "a[name='����']")
+	@FindBy(css = "a[name='北京']")
 	private WebElement beiJingCityItem;
 	
 	@FindBy(css = ".subway-item")
@@ -57,7 +57,7 @@ public class SearchWhichWayToSelect {
 	private WebElement detail;
 	
 	@FindBy(css = "#select_type")
-	private WebElement trafficType;// ���ﲻ����css = .traffic_type ��λ,�����ʱ������¼���������
+	private WebElement trafficType;// 这里不能用css = .traffic_type 定位,用这个时，点击事件不起作用
 	
 	@FindBy(css = ".nosubway")
 	private WebElement noSubWay;
@@ -78,9 +78,9 @@ public class SearchWhichWayToSelect {
 		Thread.sleep(3000);
 		this.subWay.click();
 		Thread.sleep(3000);
-		this.startFrom.sendKeys("�Ϻ���ѧ");
+		this.startFrom.sendKeys("上海大学");
 		Thread.sleep(3000);
-		this.endFrom.sendKeys("½����");
+		this.endFrom.sendKeys("陆家嘴");
 		Thread.sleep(3000);
 		this.searchButton.click();
 		Thread.sleep(3000);
@@ -102,9 +102,9 @@ public class SearchWhichWayToSelect {
 		Thread.sleep(10000);
 		this.routeMenu.click();
 		Thread.sleep(3000);
-		this.bus_start.sendKeys("�ϵ����");
+		this.bus_start.sendKeys("上地五街");
 		Thread.sleep(3000);
-		this.bus_end.sendKeys("�ʹ�");
+		this.bus_end.sendKeys("故宫");
 		Thread.sleep(3000);
 		this.busSearchButton.click();
 		Thread.sleep(30000);
